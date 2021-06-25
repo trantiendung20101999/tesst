@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm sinh viên "
+        android:gravity="center"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Full name ">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPlace"
+                android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Que quan "
+        ></EditText>
+
+    <EditText
+        android:id="@+id/edYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nam sinh "
+        android:layout_marginTop="150dp"></EditText>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+></Spinner>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="Thêm sinh viên"
+        ></Button>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"></androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
